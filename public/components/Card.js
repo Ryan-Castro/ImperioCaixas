@@ -9,12 +9,11 @@ export default function card(props){
     },[])
 
     function showModal(){
-        console.log("foi")
         setShow("flex")
     }
     return(
         <>
-            <img src={props.foto} onClick={showModal} />
+            <img src={props.foto} onClick={showModal} style={{width: "500px"}}/>
             <Modal display={show} video={props.video} />
         </>
     )

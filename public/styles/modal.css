@@ -1,0 +1,24 @@
+#modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+
+#contentModal{
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.615);
+}
+
+#contentModal video{
+    width: 100%;
+}
+
+
+
