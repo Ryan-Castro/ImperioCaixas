@@ -1,3 +1,11 @@
 #home{
     display: flex;
 }
+
+#contentHome{
+    width: calc(100vw - 250px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    justify-items: center;
+}

@@ -19,9 +19,8 @@ export default function card(props){
         }
     }
     return(
-        <>
-            <img src={props.foto} onClick={showModal} style={{width: "500px"}}/>
+        <div id="card" style={{backgroundImage: `url(${props.foto})`}} onClick={showModal}>
             <Modal display={show} video={props.video} hideModal={hideModal}/>
-        </>
+        </div>
     )
 }

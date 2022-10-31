@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 #navbar{
     height: 100vh;
     width: 250px;
     border-right: 1px solid black;
-    padding-top: 30px;
+    padding-top: 45px;
+    display: flex;   
+    padding-left: 25px;
+    flex-direction: column;
 }
 #navbar h1{
-    width: 100%;
+    font-size: 35px;
+    font-family: 'Satisfy', cursive;
+}
+
+#navbar ul{
+    list-style: none;
+    margin-top: 40px;
+}
+
+#navbar li{
+    margin-bottom: 60px;
 }

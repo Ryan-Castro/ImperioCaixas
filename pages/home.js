@@ -2,7 +2,7 @@ import Card from "../public/components/Card"
 import { initializeApp } from "firebase/app";
 import { collection, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { doc, setDoc, getFirestore } from "firebase/firestore";
+import { getFirestore } from "firebase/firestore";
 import Navbar from "../public/components/Navbar";
 export default function home(){
 
@@ -36,7 +36,7 @@ export default function home(){
     return(
         <div id="home">
             <Navbar></Navbar>
-            <div>{itens.map((i)=><Card foto={i.linkFoto} video={i.linkVideo} key={i.title}></Card>)}</div>
+            <div id="contentHome">{itens.map((i)=><Card foto={i.linkFoto} video={i.linkVideo} key={i.title}></Card>)}</div>
         </div>
 
     )
